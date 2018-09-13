@@ -5,53 +5,81 @@
 	box-sizing: border-box;
 }
 body {
-	width: auto;
-	height: 100%;
 	background-color: #fff;
 }
 
 h1, h2, .copy {
 	font-family: "RedRingLight", sans-serif;
 	font-weight: 100;
-	font-style: normal;
 }
 button {
 	font-family: "ProximaNovaLight", sans-serif;
 	font-weight: 400;
-	font-style: normal;
 }
 
 input, textarea, button {
 	outline: none;
 }
+.clear{
+	clear: both;
+}
 /* end reset */
 
-/*  пишем код тут */
+/*  Хедер */
+header {
+	position: relative;
+	padding-top: 15px;
+	height: 100px;
+	z-index: 1;
+}
+.logo {
+	text-align: center;
+}
+/*  End Хедер */
+.banner {
+	position: relative;
+	height: 650px;
+	background: linear-gradient(to top, #f34949, #ffd96a);
+	z-index: 0;
+}
+/*  Banner background */
+.banner_text h1 {
+	font-size: 40px;
+}
+.banner_text,.banner_img {
+	margin: 0 auto;
+	text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.banner_text span{
+	font-family: "RedRingBlack",sans-serif;
+	color: #fff
+}
+.banner_img img{
+	padding: 180px;
+}
+.banner_text{
+		padding-top: 100px;
+}
+/*  Banner padding */
+.defintion{
+	padding: 100px 0;
+}
+.definition_item{
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	padding: 0 30px;
+	text-align: justify;
+}
+.definition_item h3{
+font-family: "ProximaNovaThin", sans-serif;
+text-align: center;
+}
+.definition-item p {
+    width: 75%;
+    margin: 0 auto;
+    font-family: "ProximaNovaLight", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}

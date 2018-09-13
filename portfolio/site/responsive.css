@@ -1,0 +1,10 @@
+@media (min-widht:0px) and (max-widht:767px){
+.form form {
+  width: 90%;
+}
+
+.definition_item{
+
+	width: 33.33%;
+}
+}
